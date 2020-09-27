@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+  float: left;
+  overflow-y: scroll;
+  margin: 15px;
+  width: 8px;
+  height: 8px;
+  background: #f4f5f9;
+  border: 1px solid #ccd2e2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444f78;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444f78;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #444f78;
+}

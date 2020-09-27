@@ -1,0 +1,17 @@
+.nav-tabs {
+    // border-bottom-color: $color-warning;
+
+    .nav-link {
+        outline: none;
+    }
+
+    .nav-link.active,
+    .nav-item.show .nav-link {
+        // color: $color-default;
+        border-color: $border-color $border-color #fff;
+    }
+
+    .nav-link:hover {
+        border-color: $border-color
+    }
+}

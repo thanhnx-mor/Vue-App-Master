@@ -1,0 +1,137 @@
+.nt-button-top {
+    border-radius: 60px !important;
+    align-items: center;
+}
+
+.nt_btn {
+    padding: 6px 20px !important;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    align-items: center;
+    width: fit-content !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.nt_btn-pill {
+    border-radius: 30px;
+}
+
+.nt_btn-outline-warning {
+    color: $color-warning;
+    background-color: #fff;
+    border: 1px solid $color-warning;
+}
+
+.nt_btn-outline-warning:hover,
+.nt_btn-outline-warning.hover,
+.nt_btn-outline-warning:focus,
+.nt_btn-outline-warning.focus,
+.nt_btn-outline-warning:active,
+.nt_btn-outline-warning.active {
+    color: #fff;
+    background-color: $color-warning !important;
+    border: 1px solid $color-warning !important;
+}
+
+.nt_btn-warning {
+    color: #fff;
+    background-color: $color-warning;
+    border: 1px solid $color-warning;
+}
+
+.nt_btn-warning:hover,
+.nt_btn-warning.hover,
+.nt_btn-warning:active,
+.nt_btn-warning.active,
+.nt_btn-warning:focus,
+.nt_btn-warning.focus {
+    color: #fff !important;
+    background-color: $color-warning !important;
+    border: 1px solid $color-warning !important;
+}
+
+.nt_btn-primary:warning,
+.nt_btn-primary.warning {
+    outline: none;
+    box-shadow: none;
+}
+
+.nt_btn-outline-primary {
+    color: $color-default;
+    background-color: #fff;
+    border: 1px solid #ccd2e2;
+}
+
+.nt_btn-outline-primary:hover,
+.nt_btn-outline-primary.hover,
+.nt_btn-outline-primary:active,
+.nt_btn-outline-primary.active,
+.nt_btn-outline-primary:focus,
+.nt_btn-outline-primary.focus {
+    color: #fff;
+    background-color: $color-default !important;
+    border: 1px solid $color-default !important;
+}
+
+.nt_btn-primary {
+    color: #fff;
+    background-color: $color-default;
+    border: 1px solid $color-default;
+}
+
+.nt_btn-primary:hover,
+.nt_btn-primary.hover,
+.nt_btn-primary:active,
+.nt_btn-primary.active,
+.nt_btn-primary:focus,
+.nt_btn-primary.focus {
+    color: #fff !important;
+    background-color: $color-default !important;
+    border: 1px solid $color-default !important;
+}
+
+.nt_btn-primary:focus,
+.nt_btn-primary.focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nt_btn-outline-danger {
+    color: $color-active;
+    background-color: #fff;
+    border: 1px solid $color-active;
+}
+
+.nt_btn-outline-danger:hover,
+.nt_btn-outline-danger.hover,
+.nt_btn-outline-danger:focus,
+.nt_btn-outline-danger.focus,
+.nt_btn-outline-danger:active,
+.nt_btn-outline-danger.active {
+    color: #fff;
+    background-color: $color-active !important;
+    border: 1px solid $color-active !important;
+}
+
+.nt_btn-danger {
+    color: #fff;
+    background-color: $color-active;
+    border: 1px solid $color-active;
+}
+
+.nt_btn-danger:hover,
+.nt_btn-danger.hover,
+.nt_btn-danger:active,
+.nt_btn-danger.active,
+.nt_btn-danger:focus,
+.nt_btn-danger.focus {
+    background-color: $color-active !important;
+    border: 1px solid $color-active !important;
+}

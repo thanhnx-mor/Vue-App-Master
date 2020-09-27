@@ -1,0 +1,16 @@
+.deal-workflow-head {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .item-deal-workflow-head-title {
+        margin-bottom: 0;
+        width: calc(100% - 40px);
+        float: left;
+    }
+
+    .item-deal-workflow-head-actions {
+        width: 40px;
+        float: right;
+    }
+}

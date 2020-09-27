@@ -1,0 +1,11 @@
+// actions
+export const GET_USER_STATUS_CODES = 'GET_USER_STATUS_CODES'
+export const GET_CURRENT_USER = 'GET_CURRENT_USER'
+export const GET_ALL_USERS = 'GET_ALL_USERS'
+export const GET_ALL_ROLES = 'GET_ALL_ROLES'
+
+// mutations
+export const SET_USER_STATUS_CODES = 'SET_USER_STATUS_CODES'
+export const SET_CURRENT_USER = 'SET_CURRENT_USER'
+export const SET_ALL_USERS = 'SET_ALL_USERS'
+export const SET_ALL_ROLES = 'SET_ALL_ROLES'

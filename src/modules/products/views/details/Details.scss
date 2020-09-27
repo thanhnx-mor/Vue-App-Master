@@ -1,0 +1,81 @@
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.nt-attribute-item {
+  .item {
+    cursor: pointer;
+    border: none;
+    position: relative;
+    border: 1px solid transparent;
+    height: auto;
+
+    .input-icon {
+      position: absolute;
+      right: 0;
+      display: none;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .item:hover,
+  .item.hover {
+    border-bottom: 1px solid #ccd2e2;
+    border-radius: inherit;
+
+    .input-icon {
+      display: block;
+    }
+  }
+
+  &.nt-attribute-item-disabled {
+    .nt-form-control-sm {
+      pointer-events: none;
+    }
+
+    .item:hover,
+    .item.hover {
+      border-bottom-color: transparent;
+
+      .input-icon {
+        display: none;
+      }
+    }
+  }
+}
+
+.card-header {
+  i {
+    display: none;
+  }
+
+  &:hover {
+    i {
+      display: inherit;
+    }
+  }
+}
+
+.portlet__foot {
+  padding: 10px 20px;
+  background: #f4f5f9;
+  margin-top: -20px;
+  box-shadow: 0 0 10px rgba(68, 79, 120, .15);
+  border-top: 1px solid #ebedf2;
+}
+
+.float-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0 20px;
+}
+
+.nt_btn-danger.btn-secondary:focus,
+.nt_btn-danger.btn-secondary.focus {
+  background-color: #b82e45;
+  border: 1px solid #b82e45;
+  box-shadow: none;
+}

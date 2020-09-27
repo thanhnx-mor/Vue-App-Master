@@ -1,0 +1,47 @@
+.body-content {
+    background: none;
+}
+
+.position-relative {
+    background: #fff;
+    padding: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.card-header {
+    i {
+        display: none;
+    }
+
+    &:hover {
+        i {
+            display: inherit;
+        }
+    }
+}
+
+.portlet__foot {
+    padding: 10px 20px;
+    background: #f4f5f9;
+    margin-top: -20px;
+    box-shadow: 0 0 10px rgba(68, 79, 120, .15);
+    border-top: 1px solid #ebedf2;
+}
+
+.float-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 20px;
+}
+
+.nt_btn-danger.btn-secondary:focus,
+.nt_btn-danger.btn-secondary.focus {
+    background-color: #b82e45;
+    border: 1px solid #b82e45;
+    box-shadow: none;
+}

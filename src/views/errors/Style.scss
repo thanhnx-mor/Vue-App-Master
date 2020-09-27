@@ -1,0 +1,23 @@
+.page-error {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 40px 20px;
+
+  .main-header {
+    top: 0;
+  }
+
+  .title {
+    font-size: 60px;
+    line-height: 1.4;
+  }
+
+  .sub-title {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+}

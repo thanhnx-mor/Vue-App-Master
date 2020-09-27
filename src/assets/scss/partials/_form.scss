@@ -1,0 +1,153 @@
+.invalid-feedback {
+	font-size: 14px;
+}
+
+.is-invalid {
+
+	.multiselect__tags,
+	.mx-input {
+		border-color: #dc3545
+	}
+}
+
+.multiselect__tag {
+	background: $color-success;
+}
+
+.multiselect__tag-icon:after {
+	color: #fff;
+}
+
+.multiselect__option--selected {
+	color: $color-default;
+	background-color: #f4f5f9;
+}
+
+.multiselect__option--highlight {
+	background: $color-default;
+}
+
+.multiselect__option--selected.multiselect__option--highlight {
+	background-color: $color-warning;
+}
+
+.multiselect__content-wrapper {
+	border-color: #ccd2e2;
+}
+
+.multiselect__tag {
+	margin: 3px 5px 0;
+}
+
+.multiselect,
+.multiselect__input,
+.multiselect__single {
+	font-size: 14px;
+}
+
+.multiselect__tags {
+	padding-top: 3px;
+}
+
+.multiselect__placeholder {
+	padding-top: 0;
+	margin: 3px 0;
+}
+
+.multiselect__input,
+.multiselect__single {
+	margin-top: 4px;
+	margin-bottom: 0 !important;
+}
+
+.form-control,
+.mx-input,
+.multiselect__tags,
+.multiselect {
+	border-color: #ccd2e2;
+	color: #444f78;
+	min-height: 36px;
+}
+
+.form-control:active,
+.form-control.active {
+	border-color: #444f78;
+	outline-color: #444f78;
+}
+
+.form-control:focus,
+.form-control.focus {
+	border-color: #2577c9;
+}
+
+.nt-form-control-sm {
+	min-height: 30px;
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 10px;
+	height: auto;
+}
+
+.nt-border-none {
+	border: none;
+}
+
+.not-value {
+	font-style: italic;
+	font-size: 14px;
+	opacity: .8;
+	color: #a1a7bb;
+}
+
+.nt-badge-dropdown {
+	background: #f4f5f9;
+	border: 1px solid #ccd2e2;
+	border-radius: 25px;
+	color: #444f78;
+	padding: 4px 15px;
+	display: inline-block;
+}
+
+.nt-disabled-input {
+	background: #fff6eb;
+	border-color: #f6c790 !important;
+	pointer-events: none;
+	background-image: none !important;
+}
+
+.form-group {
+	label {
+		font-weight: 600;
+	}
+}
+
+.custom-control-input~.custom-control-label {
+	font-weight: normal;
+	color: $color-default !important;
+}
+
+.custom-control-input~.custom-control-label::before {
+	border-color: #ccd2e2 !important;
+}
+
+.custom-control-input:checked~.custom-control-label {
+	color: $color-success !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	background-color: $color-success !important;
+}
+
+.nt-show-textarea {
+	white-space: pre-line;
+}
+
+.custom-switch.b-custom-control-lg .custom-control-label::before,
+.input-group-lg .custom-switch .custom-control-label::before {
+	cursor: pointer;
+}
+
+.custom-switch .custom-control-input:disabled:checked~.custom-control-label::before {
+	opacity: 0.6;
+	cursor: no-drop;
+}

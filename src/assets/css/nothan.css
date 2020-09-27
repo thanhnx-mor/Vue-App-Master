@@ -1,0 +1,420 @@
+h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px
+}
+
+h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px
+}
+
+h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px
+}
+
+h5 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px
+}
+
+h6 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px
+}
+
+.nt_text-body-1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px
+}
+
+.nt_text-body-2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px
+}
+
+.nt_text-body-3 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px
+}
+
+.nt_text-body-4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px
+}
+
+.nt_text-body-5 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nt_text-body-6 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.nt_text-all-cap {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .2em
+}
+
+.nt_text-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2577c9
+}
+
+.nt_text-link.hover,
+.nt_text-link:hover {
+  cursor: pointer;
+  text-decoration-line: underline
+}
+
+.nt_text-special {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px
+}
+
+.nt_text-tooltip {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px
+}
+
+.nt_text-subtitle-1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px
+}
+
+.nt_text-subtitle-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px
+}
+
+.nt_text-subtitle-3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px
+}
+
+.nt_text-strikethrough {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: line-through
+}
+
+.nt_text-link-new-tab {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2577c9
+}
+
+.nt_text-link-new-tab.hover span,
+.nt_text-link-new-tab:hover span {
+  cursor: pointer;
+  text-decoration-line: underline
+}
+
+.nt_text-link-new-tab:after {
+  font-family: "nothan_iconV10";
+  content: "\e982";
+  margin-left: 5px
+}
+
+.nt_text-dark {
+  color: #444f78
+}
+
+.nt_bg-dark-gray {
+  background-color: #F2F3F8
+}
+
+.nt_bg-light-gray {
+  background-color: #F9FAFC
+}
+
+.nt_text-primary {
+  color: #444F78 !important
+}
+
+.nt_text-secondary {
+  color: #838CAB !important
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #A1A7BB;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #A1A7BB;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #A1A7BB;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #A1A7BB;
+}
+
+.nt_line-divider-1 {
+  color: #CCD2E2
+}
+
+.nt_line-divider-2 {
+  color: #838CAB
+}
+
+.nt_c-red-dangerous {
+  color: #B82E45
+}
+
+.nt_c-blue-infor {
+  color: #6996D9
+}
+
+.nt_c-orange-caution {
+  color: #FF8A00
+}
+
+.nt_c-green-successfully {
+  color: #69BE31
+}
+
+.nt_c-purple-infor {
+  color: #9F36BE
+}
+
+.nt_c-yellow {
+  color: #FFDC00
+}
+
+.nt_c-teal {
+  color: #41BAF9
+}
+
+.nt_c-pink {
+  color: #ED417F
+}
+
+.nt_c-red-orange {
+  color: #F56048
+}
+
+
+.nt_c-red-10 {
+  color: #F8EAEC
+}
+
+.nt_c-blue-10 {
+  color: #F0F5FB
+}
+
+.nt_c-orange-10 {
+  color: #FFF3E6
+}
+
+.nt_c-orange-20 {
+  color: #FFE8CC
+}
+
+.nt_c-green-10 {
+  color: #F0F8EA
+}
+
+.nt_c-blue-10 {
+  color: #F5EBF8
+}
+
+.nt_c-yellow-10 {
+  color: #FFFBE6
+}
+
+.nt_c-teal-10 {
+  color: #ECF8FE
+}
+
+.nt_c-pink-10 {
+  color: #FDECF2
+}
+
+.nt_c-red-orange-10 {
+  color: #FEEFED
+}
+
+.nt_c-blue-dark-purple {
+  color: linear-gradient(90deg, #B82E45 0%, #7D438E 100%)
+}
+
+.nt_c-blue-dark-purple-2 {
+  color: linear-gradient(234.45deg, #98A5F8 13.59%, #98A5F8 13.6%, #561E64 86.71%)
+}
+
+.nt_c-pink-dark-purple {
+  color: linear-gradient(234.45deg, #FF9CC4 13.59%, #561E64 86.71%)
+}
+
+.nt_c-nude-dark-purple {
+  color: linear-gradient(234.45deg, #FFBA9C 13.59%, #561E64 86.71%)
+}
+
+.nt_c-ocen-dark-purple {
+  color: linear-gradient(234.45deg, #88E7FF 13.59%, #561E64 86.71%)
+}
+
+.nt_c-violet-dark-purple {
+  color: linear-gradient(234.45deg, #AF88FF 13.59%, #561E64 86.71%)
+}
+
+.nt_c-pink-dark-purple-2 {
+  color: linear-gradient(234.45deg, #6996D9 13.59%, #ED417F 86.71%)
+}
+
+.nt_c-nude-dark-purple-2 {
+  color: linear-gradient(234.45deg, #FFBA9C 13.59%, #9F36BE 86.71%)
+}
+
+.nt_c-ocen-dark-purple-2 {
+  color: linear-gradient(234.45deg, #F56048 13.59%, #FFDC00 86.71%)
+}
+
+.nt_required.required-before:before {
+  content: "* ";
+  color: #f56048
+}
+
+.nt_required.required-after:after {
+  content: "* ";
+  color: #f56048
+}
+
+.nt_btn {
+  border-radius: 19px;
+  font-weight: 500;
+  border: none
+}
+
+.nt_btn.nt_btn-form {
+  border-radius: 4px
+}
+
+.nt_btn.nt_btn-form.nt_btn-secondary {
+  color: #444f78;
+  background: #fff;
+  border: 1px solid #d9dde8
+}
+
+.nt_btn.nt_btn-form.nt_btn-secondary:hover,
+.nt_btn.nt_btn-form.nt_btn-secondary.hover {
+  background-color: #f9fafc
+}
+
+.nt_btn.nt_btn-form.nt_btn-secondary:active,
+.nt_btn.nt_btn-form.nt_btn-secondary.active {
+  background-color: #f2f3f8
+}
+
+.nt_btn.nt_btn-form.nt_btn-secondary:disabled,
+.nt_btn.nt_btn-form.nt_btn-secondary.disabled {
+  opacity: .4;
+  pointer-events: none
+}
+
+.nt_btn-sm {
+  padding: 8px 15px;
+  font-size: 12px;
+  line-height: 14px
+}
+
+.nt_btn-md {
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 17px
+}
+
+.nt_btn-lg {
+  padding: 12px 25px;
+  font-size: 16px;
+  line-height: 19px
+}
+
+.nt_btn-icon i {
+  margin-right: 10px
+}
+
+.nt_btn-primary {
+  color: #fff;
+  background-color: #ff8a00
+}
+
+.nt_btn-primary:hover,
+.nt_btn-primary.hover {
+  background-color: #ffa100
+}
+
+.nt_btn-primary:active,
+.nt_btn-primary.active {
+  background-color: #da7600
+}
+
+.nt_btn-primary:disabled,
+.nt_btn-primary.disabled {
+  opacity: .4;
+  pointer-events: none
+}
+
+.nt_btn-secondary {
+  color: #fff;
+  background-color: #444f78
+}
+
+.nt_btn-secondary:hover,
+.nt_btn-secondary.hover {
+  background-color: #525f90
+}
+
+.nt_btn-secondary:active,
+.nt_btn-secondary.active {
+  background-color: #3a4367
+}
+
+.nt_btn-secondary:disabled,
+.nt_btn-secondary.disabled {
+  opacity: .4;
+  pointer-events: none
+}

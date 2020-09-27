@@ -1,0 +1,194 @@
+.table {
+  color: $color-default;
+
+  thead {
+    tr {
+      th {
+        min-width: 120px;
+        color: $color-default;
+        background-color: #f4f5f9;
+
+        &.td-actions {
+          width: 80px;
+        }
+
+        &.td-id {
+          width: 80px;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        .fas.fa-trash {
+          &:hover {
+            color: $danger;
+          }
+        }
+
+        min-width: 120px;
+
+        &.td-actions {
+          width: 80px;
+        }
+
+        &.td-id {
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+
+.table-row-disabled-bg {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.customer-table,
+.contact-table,
+.product-table,
+.deal-table {
+  table {
+    thead {
+      tr {
+        &:last-of-type {
+          display: none;
+        }
+      }
+    }
+
+    tr {
+      th {
+        &.ma_kh {
+          z-index: 5 !important;
+        }
+
+        &.ma_lh {
+          z-index: 5 !important;
+        }
+
+
+      }
+
+      th,
+      td {
+        min-width: 250px;
+        vertical-align: middle;
+
+        &.actions {
+          min-width: 120px;
+        }
+
+        &.ma_dh,
+        &.ma_kh,
+        &.ma_sp {
+          min-width: 120px;
+        }
+      }
+    }
+  }
+}
+
+.deal-table-me {
+  table {
+
+    th,
+    td {
+      &.actions {
+        min-width: 150px !important;
+      }
+    }
+  }
+}
+
+.deal-table-payment {
+  table {
+
+    th,
+    td {
+      &.actions {
+        min-width: 180px !important;
+      }
+    }
+  }
+}
+
+.table.b-table>thead>tr>.table-b-table-default,
+.table.b-table>tbody>tr>.table-b-table-default,
+.table.b-table>tfoot>tr>.table-b-table-default {
+  color: $color-default;
+  background-color: #f4f5f9;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 1px !important;
+}
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #444f78;
+  border-color: #444f78;
+}
+
+.page-link {
+  color: #444f78;
+  border: 1px solid #ccd2e2;
+  box-shadow: none;
+}
+
+.page-link:hover,
+.page-link.hover {
+  background: #444f78;
+  color: #fff;
+}
+
+.page-link:focus,
+.page-link.focus {
+  box-shadow: none;
+}
+
+.table-deal-products {
+  overflow: auto;
+  display: block;
+
+  @media (min-width: 1200px) {
+    overflow: inherit;
+    display: inline-table;
+  }
+
+  tbody,
+  thead {
+
+    th,
+    td {
+
+      &.product_unit,
+      &.price,
+      &.sale_price,
+      &.total_price,
+      &.quantity {
+        min-width: 100px !important;
+      }
+
+      &.discount_type {
+        min-width: 140px !important;
+        max-width: 140px;
+      }
+
+      &.is_delivered {
+        min-width: 150px !important;
+      }
+
+      &.product_code {
+        min-width: 85px !important;
+      }
+
+      &.actions {
+        min-width: 60px !important;
+      }
+    }
+  }
+}

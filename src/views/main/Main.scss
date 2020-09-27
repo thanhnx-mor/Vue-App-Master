@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2f3f8;
+
+  .main-body {
+    padding: 0 20px;
+    padding-top: 60px;
+    flex: 1;
+  }
+
+  .main-footer {
+    flex: 0 0 40px;
+  }
+}
+
+#showForbiddenModal {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border: none;
+  padding: 0;
+  text-indent: -9999px;
+}
